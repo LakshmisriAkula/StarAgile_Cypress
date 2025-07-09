@@ -176,7 +176,9 @@
   },
   "devDependencies": {
     "chai": "^5.2.0",
-    "cypress": "^14.5.1"
+    "cypress": "^14.5.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
