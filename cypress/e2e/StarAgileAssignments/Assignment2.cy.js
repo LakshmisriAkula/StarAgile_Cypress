@@ -11,6 +11,7 @@ describe("Assignment 2: Interacting with Form Elements", () => {
     Cypress.on('uncaught:exception', (err, runnable) => {
         return false;
     });
+    
     it("Fills out the login form and verifies successful submission", () => {
         cy.visit("https://demoqa.com/automation-practice-form");
 
